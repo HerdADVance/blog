@@ -1,0 +1,44 @@
+/* HOME ARTICLES */
+.home-articles{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 0 0 0;
+	position: relative;
+}
+.home-logo-circle{
+	background: ;
+	border-radius: 100%;
+	color: #EFC050;
+	height: 8em;
+	margin-left: calc(50% - 4em);
+	margin-top: calc(50vh - 4em);
+	position: absolute;
+	text-align: center;
+	width: 8em;
+}
+.home-logo-circle span{
+	font-size: 5em;
+	line-height: 100px;
+}
+.home-articles article{
+	background-position: center;
+	background-size: cover;
+	border: 0px solid #FFF;
+	cursor: pointer;
+	height: calc(50vh);
+	line-height: calc(50vh);
+	text-align: center;
+	width: 25%;
+}
+.home-articles article a{
+	display: block;
+}
+.home-articles h1{
+	color: white;
+	font-size: 1.75em;
+	font-weight: normal;
+	display: inline-block;
+  	line-height: normal;
+  	vertical-align: middle;
+  	width: 75%;
+}
