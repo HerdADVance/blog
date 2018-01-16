@@ -24,6 +24,16 @@ body{
 .wrap{
 	padding: 0 8%;
 }
+.overlay-text{
+	color: #FFF;
+	font-weight: normal;
+	display: inline-block;
+	margin-left: 15%;
+  	line-height: normal;
+  	text-align: center;
+  	vertical-align: middle;
+  	width: 70%;
+}
 
 /* SECTIONS */
 main{
@@ -31,7 +41,7 @@ main{
 	text-align: left;
 }
 section{
-	margin-bottom: 4em;
+	
 }
 .section-title{
 	border-bottom: 1px solid #CCC;
@@ -74,25 +84,59 @@ section{
 
 /* HOME FEATURED */
 .home-featured{
-	background-position: top;
+	background-position: center;
 	background-size: cover;
-	height: 80vh;
-	line-height: 80vh;
+	border-bottom: 1px solid #FFF;
+	height: 65vh;
+	line-height: 65vh;
 	width: 100%;
 }
 .home-featured h1{
-	color: white;
 	font-size: 2.25em;
-	font-weight: normal;
-	display: inline-block;
-	margin-left: 15%;
-  	line-height: normal;
-  	text-align: center;
-  	vertical-align: middle;
-  	width: 70%;
 }
 .home-featured a{
 	display: block;
+}
+
+/* HOME SECONDARY */
+.home-secondary{
+	align-items: center;
+	display: flex;
+}
+.home-secondary-article{
+	background-position: top;
+	background-size: cover;
+	height: 35vh;
+	line-height: 35vh;
+	width: 33.3333333%;
+}
+.home-secondary-article:nth-child(2){
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+}
+.home-secondary-article h1{
+	font-size: 1.5em;
+}
+.home-secondary-article a{
+	display: block;
+}
+
+/* HOME SECTIONS */
+.home-sections{
+	align-items: center;
+	display: flex;
+	padding: 0 0 1em;
+}
+.home-sections button{
+	background: steelblue;
+	border-top: none;
+	color: white;
+	cursor: pointer;
+	padding: 20px 0;
+	width: 20%;
+}
+.home-sections button:hover{
+	background: midnightblue;
 }
 
 /* ARTICLE HEADER */

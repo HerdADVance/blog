@@ -24,20 +24,42 @@
 		</nav>
 	</header>
 	<main>
-		<section class="home-featured" style="background-image: radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('/assets/images/new-river-overlook-feet.jpg');">
+		<section class="home-featured" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/new-river-overlook-feet.jpg');">
 			<a href="/article.php">
-				<h1>Everyone in West Virginia Has Taken This Same Exact Goddamn Picture</h1>
+				<h1 class="overlay-text">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture</h1>
 			</a>
 		</section>
 
-		<section class="home-sections wrap">
-			<button></button>
+		<section class="home-secondary">
+			<div class="home-secondary-article" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/vikes-panthers.jpg');">
+				<a href="/article.php">
+					<h1 class="overlay-text">Stefon Diggs, Real American Hero</h1>
+				</a>
+			</div>
+			<div class="home-secondary-article" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/wilmington-beach.jpg');">
+				<a href="/article.php">
+					<h1 class="overlay-text">Some Civil War Shit Went Down Here</h1>
+				</a>
+			</div>
+			<div class="home-secondary-article" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/winston-salem-snow.jpg');">
+				<a href="/article.php">
+					<h1 class="overlay-text">Why the Fuck is it Snowing Here?</h1>
+				</a>
+			</div>
+		</section>
+
+		<section class="home-welcome wrap">
+			<h1>Welcome</h1>
+			<p>This is my blog.</p>
+		</section>
+
+		<!--section class="home-sections">
 			<button>Code</button>
 			<button>Sports</button>
 			<button>Politics</button>
 			<button>Travel</button>
 			<button>Fitness</button>
-		</section>
+		</section-->
 		
 	</main>
 
