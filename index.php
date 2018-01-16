@@ -50,7 +50,7 @@
 
 		<section class="home-welcome wrap">
 			<h1>Welcome</h1>
-			<p>This is my blog.</p>
+			<p>This is my blog..</p>
 		</section>
 
 		<!--section class="home-sections">
