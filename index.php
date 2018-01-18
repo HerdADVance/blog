@@ -35,16 +35,19 @@
 				<a href="/article.php">
 					<h1 class="overlay-text">Stefon Diggs, Real American Hero</h1>
 				</a>
+				<div class="overlay-category sports">Sports</div>
 			</div>
 			<div class="home-secondary-article" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/wilmington-beach.jpg');">
 				<a href="/article.php">
 					<h1 class="overlay-text">Some Civil War Shit Went Down Here</h1>
 				</a>
+				<div class="overlay-category travel">Travel</div>
 			</div>
 			<div class="home-secondary-article" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/winston-salem-snow.jpg');">
 				<a href="/article.php">
 					<h1 class="overlay-text">Why the Fuck is it Snowing Here?</h1>
 				</a>
+				<div class="overlay-category travel">Travel</div>
 			</div>
 		</section>
 

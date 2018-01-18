@@ -22,7 +22,7 @@ body{
 	text-align: center;
 }
 .wrap{
-	padding: 0 15%;
+	padding: 0 12%;
 }
 .overlay-text{
 	color: #FFF;
@@ -34,6 +34,23 @@ body{
   	vertical-align: middle;
   	width: 70%;
 }
+.overlay-category{
+	color: white;
+	height: 25px;
+	line-height: 25px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	width: 75px;
+}
+
+/* CATEGORY COLORS */
+.sports{background-color: purple;}
+.code{background-color: orange;}
+.politics{background-color: midnightblue;}
+.fitness{background-color: red;}
+.travel{background-color: mediumseagreen;}
 
 /* SECTIONS */
 main{
@@ -108,6 +125,7 @@ section{
 	background-size: cover;
 	height: 35vh;
 	line-height: 35vh;
+	position: relative;
 	width: 33.3333333%;
 }
 .home-secondary-article:nth-child(2){
@@ -147,8 +165,8 @@ section{
 }
 .article-image{
 	align-items: center;
-	background: url(../images/new-river-overlook-feet.jpg);
-	background-position: top;
+	background: url(../images/vikes-panthers.jpg);
+	background-position: center;
 	background-size: cover;
 	/*box-shadow: 0 5px 3px #EEE*/;
 	display: flex;
