@@ -56,6 +56,34 @@
 			<p>This is my blog..</p>
 		</section>
 
+		<section class="home-previews wrap">
+			<article class="home-preview">
+				<img src="/assets/images/cincinnati-hotel.jpg">
+				<h1>Here's Another Headline</h1>
+				<p>Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text.</p>
+			</article>
+			<article class="home-preview">
+				<img src="/assets/images/cincinnati-hotel.jpg">
+				<h1>Here's Another Headline</h1>
+				<p>Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text.</p>
+			</article>
+			<article class="home-preview">
+				<img src="/assets/images/cincinnati-hotel.jpg">
+				<h1>Here's Another Headline</h1>
+				<p>Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text.</p>
+			</article>
+			<article class="home-preview">
+				<img src="/assets/images/cincinnati-hotel.jpg">
+				<h1>Here's Another Headline</h1>
+				<p>Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text.</p>
+			</article>
+			<article class="home-preview">
+				<img src="/assets/images/cincinnati-hotel.jpg">
+				<h1>Here's Another Headline</h1>
+				<p>Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text.</p>
+			</article>
+		</section>
+
 		<!--section class="home-sections">
 			<button>Code</button>
 			<button>Sports</button>
