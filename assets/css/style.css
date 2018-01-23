@@ -79,12 +79,12 @@ section{
 
 /* SITE HEADER AND NAV */
 .site-header{
-	background-image: linear-gradient(rgba(40,8,99,0.95), rgba(40,8,99,0));
+	background-image: linear-gradient(rgba(40,8,99,1.0), rgba(40,8,99,0.75));
 	border-bottom: 0px solid #EFC050;
 	font-size: 1.5em;
 	font-weight: bold;
-	height: 80px;
-	line-height: 80px;
+	height: 60px;
+	line-height: 60px;
 	position: fixed;
 	width: 100%;
 	z-index: 3;

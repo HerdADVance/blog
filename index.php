@@ -29,41 +29,35 @@
 		</nav>
 	</header>
 	<main>
-		<div id="fullpage">
-			<div class="page">
-				<section class="home-featured" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/new-river-overlook-feet.jpg');">
-					<a href="/article.php">
-						<h1 class="overlay-text">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture</h1>
-					</a>
-				</section>
+		<section class="home-featured" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/new-river-overlook-feet.jpg');">
+			<a href="/article.php">
+				<h1 class="overlay-text">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture</h1>
+			</a>
+		</section>
 
-				<section class="home-secondary">
-					<div class="home-secondary-article" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/vikes-panthers.jpg');">
-						<a href="/article.php">
-							<h1 class="overlay-text">Stefon Diggs, Real American Hero</h1>
-						</a>
-						<div class="overlay-category sports">Sports</div>
-					</div>
-					<div class="home-secondary-article" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/wilmington-beach.jpg');">
-						<a href="/article.php">
-							<h1 class="overlay-text">Some Civil War Shit Went Down Here</h1>
-						</a>
-						<div class="overlay-category travel">Travel</div>
-					</div>
-					<div class="home-secondary-article" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/winston-salem-snow.jpg');">
-						<a href="/article.php">
-							<h1 class="overlay-text">Why the Fuck is it Snowing Here?</h1>
-						</a>
-						<div class="overlay-category travel">Travel</div>
-					</div>
-				</section>
+		<section class="home-secondary">
+			<div class="home-secondary-article" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/vikes-panthers.jpg');">
+				<a href="/article.php">
+					<h1 class="overlay-text">Stefon Diggs, Real American Hero</h1>
+				</a>
+				<div class="overlay-category sports">Sports</div>
 			</div>
-			<div class="page">ABC</div>
-		</div>
-
+			<div class="home-secondary-article" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/wilmington-beach.jpg');">
+				<a href="/article.php">
+					<h1 class="overlay-text">Some Civil War Shit Went Down Here</h1>
+				</a>
+				<div class="overlay-category travel">Travel</div>
+			</div>
+			<div class="home-secondary-article" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/winston-salem-snow.jpg');">
+				<a href="/article.php">
+					<h1 class="overlay-text">Why the Fuck is it Snowing Here?</h1>
+				</a>
+				<div class="overlay-category travel">Travel</div>
+			</div>
+		</section>
 		<section class="home-welcome wrap">
 			<p>Howdy.</p>
-			<p>No matter which poor life choices led to your discovery of this blog, it's probably safe to assume you have an affinity for some combination of Javascript, cursed sports teams, chess, many different forms of gambling, cats, travel, and a healthy contempt for the shitshow currently running the United States.</p>
+			<p>No matter which set of poor life choices led to your discovery of this blog, it's probably safe to assume you have an affinity for some combination of Javascript, cursed sports teams, chess, many different forms of gambling, cats, travel, and a healthy contempt for the shitshow currently running the United States.</p>
 			<p>If so, welcome! You might actually be in the right place. Maybe. This might not be the right place for anybody.</p>
 		</section>
 
