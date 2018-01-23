@@ -24,8 +24,17 @@ body{
 img{
 	max-width: 100%;
 }
+p{
+	line-height: 1.5em;
+	margin: 0 0 30px 0;
+}
 .wrap{
 	padding: 0 12%;
+}
+.clear :after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .overlay-text{
 	color: #FFF;
@@ -70,7 +79,7 @@ section{
 
 /* SITE HEADER AND NAV */
 .site-header{
-	background-image: linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0));
+	background-image: linear-gradient(rgba(40,8,99,0.95), rgba(40,8,99,0));
 	border-bottom: 0px solid #EFC050;
 	font-size: 1.5em;
 	font-weight: bold;
@@ -137,9 +146,29 @@ section{
 }
 .home-secondary-article h1{
 	font-size: 1.5em;
+	font-weight: 300;
 }
 .home-secondary-article a{
 	display: block;
+}
+
+
+/* HOME WELCOME */
+.home-welcome{
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+.home-welcome p{
+	color: #666;
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: center
+}
+.home-welcome p:first-child{
+	color: #280863;
+	font-size: 3em;
+	font-weight: bold;
 }
 
 /* HOME SECTIONS */
@@ -158,6 +187,17 @@ section{
 }
 .home-sections button:hover{
 	background: midnightblue;
+}
+
+/* HOME LISTING */
+.home-listings article{
+	clear: both;
+	padding-top: 40px;
+}
+.home-listing img{
+	float: left;
+	margin-right: 20px;
+	width: 33%;
 }
 
 /* ARTICLE HEADER */
@@ -256,8 +296,8 @@ section{
 	background: #CCC;
 	border-top: 5px solid #EEE;
 	color: #000;
-	padding-bottom: 7em;
-	padding-top: 7em;
+	padding-bottom: 4em;
+	padding-top: 4em;
 	text-align: center;
 }
 

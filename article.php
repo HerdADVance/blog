@@ -4,7 +4,7 @@
 	<title>Alex Vance</title>
 	<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css"/>
 	<link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 	<meta property="og:title" content="Blog Title" />
 	<meta property="og:image" content="Image Link"/>
 	<meta property="og:site_name" content="Blog Title" />
