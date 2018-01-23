@@ -25,7 +25,7 @@
 	</header>
 	<div class="article-image"></div>
 	<div class="parallax">
-		<main class="article-main">
+		<main class="main article-main">
 			<article class="article wrap">
 				<header class="article-header">
 					<img class="article-author-image" src="/assets/images/alex-vance.jpg" alt="Alex Vance">

@@ -65,8 +65,9 @@ p{
 .travel{background-color: mediumseagreen;}
 
 /* SECTIONS */
-main{
+.main{
 	flex: 1;
+	padding-bottom: 4em;
 	text-align: left;
 }
 section{
@@ -167,7 +168,7 @@ section{
 }
 .home-welcome p:first-child{
 	color: #280863;
-	font-size: 3em;
+	font-size: 4em;
 	font-weight: bold;
 }
 
@@ -208,7 +209,7 @@ section{
 }
 .article-image{
 	align-items: center;
-	background: url(../images/vikes-panthers.jpg);
+	background: url(../images/new-river-overlook-feet.jpg);
 	background-position: center;
 	background-size: cover;
 	/*box-shadow: 0 5px 3px #EEE*/;

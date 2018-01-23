@@ -28,7 +28,7 @@
 			</ul>
 		</nav>
 	</header>
-	<main>
+	<main class="main home-main">
 		<section class="home-featured" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/new-river-overlook-feet.jpg');">
 			<a href="/article.php">
 				<h1 class="overlay-text">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture</h1>
