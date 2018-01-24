@@ -55,16 +55,21 @@
 				<div class="overlay-category travel">Travel</div>
 			</div>
 		</section>
+
 		<section class="home-welcome wrap">
 			<p>Howdy.</p>
-			<p>No matter which set of poor life choices led to your discovery of this blog, it's probably safe to assume you have an affinity for some combination of Javascript, cursed sports teams, chess, many different forms of gambling, cats, travel, and a healthy contempt for the shitshow currently running the United States.</p>
+			<p>No matter which set of poor life choices led to your discovery of this blog, it's probably safe to assume you have an affinity for some combination of Javascript, cursed sports teams, many different forms of gambling, chess, cats, travel, and a healthy contempt for the shitshow currently running the United States.</p>
 			<p>If so, welcome! You might actually be in the right place. Maybe. This might not be the right place for anybody.</p>
 		</section>
 
 		<section class="home-listings wrap">
 			<article class="home-listing">
 				<img src="/assets/images/new-river-bridge.jpg">
-				<h1>Here's Another Headline</h1>
+				<h1>Every Single West Virginian has Taken this Same Exact Picture</h1>
+				<div class="home-listing-info">
+					<time datetime="2018-01-22">January 22, 2018</time>
+					<span class="overlay-category travel">Travel</span>
+				</div>
 				<p>Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text.</p>
 			</article>
 			<article class="home-listing">

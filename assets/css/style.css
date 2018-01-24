@@ -33,7 +33,7 @@ p{
 }
 .clear :after {
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 .overlay-text{
@@ -86,7 +86,7 @@ section{
 	font-weight: bold;
 	height: 60px;
 	line-height: 60px;
-	position: fixed;
+	position: fixexd;
 	width: 100%;
 	z-index: 3;
 }
@@ -106,7 +106,7 @@ section{
 .nav a{
 	color: #FFF;
 	font-size: .75em;
-	transition: ease-in .25s;
+	transition: ease-in .125s;
 }
 .nav a:hover{
 	color: #EFC050;
@@ -117,8 +117,8 @@ section{
 	background-position: center;
 	background-size: cover;
 	border-bottom: 1px solid #FFF;
-	height: 65vh;
-	line-height: 65vh;
+	height: 100vh;
+	line-height: 100vh;
 	width: 100%;
 }
 .home-featured h1{
@@ -198,7 +198,20 @@ section{
 .home-listing img{
 	float: left;
 	margin-right: 20px;
-	width: 33%;
+	width: 40%;
+}
+.home-listing-info{
+	overflow: auto;
+	padding: 10px 0;
+}
+.home-listing-info time{
+	float: left;
+	line-height: 25px;
+	margin-right: 15px;
+}
+.home-listing-info .overlay-category{
+	float: left;
+	position: initial;
 }
 
 /* ARTICLE HEADER */
@@ -294,8 +307,8 @@ section{
 
 /* FOOTER */
 .site-footer{
-	background: #CCC;
-	border-top: 5px solid #EEE;
+	background: #DDD;
+	border-top: 1px solid #280863;
 	color: #000;
 	padding-bottom: 4em;
 	padding-top: 4em;
@@ -318,6 +331,11 @@ section{
 /* MEDIA QUERIES */
 @media(max-width: 800px){
 	.home-articles article{
+		width: 100%;
+	}
+	.home-listing img{
+		float: none;
+		margin-right: 0;
 		width: 100%;
 	}
 	.article-title{
