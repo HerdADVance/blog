@@ -80,16 +80,28 @@ section{
 
 /* SITE HEADER AND NAV */
 .site-header{
-	background-image: linear-gradient(rgba(40,8,99,1.0), rgba(40,8,99,0.75));
 	border-bottom: 0px solid #EFC050;
 	font-size: 1.5em;
 	font-weight: bold;
-	height: 60px;
 	line-height: 60px;
-	position: fixexd;
 	width: 100%;
 	z-index: 3;
+	overflow: hidden;
+	position: fixed;
 }
+/* Drastically improves scrolling performance thanks to not constantly repainting fixed background */
+.site-header::before {
+	content: ' ';
+	position: fixed; 
+	width: 100%;
+	height: 60px;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(rgba(40,8,99,1.0), rgba(40,8,99,0.75));
+	background-size: cover;
+	will-change: transform;
+	z-index: -1;
+	}
 .site-logo{
 	color: #FFF;
 }
