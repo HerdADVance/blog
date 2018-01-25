@@ -29,9 +29,9 @@
 		</nav>
 	</header>
 	<main class="main home-main">
-		<section class="home-featured" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/new-river-overlook-feet.jpg');">
+		<section class="home-featured" style="background-image: radial-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.5)), url('/assets/images/new-river-overlook-feet.jpg');">
 			<a href="/article.php">
-				<h1 class="overlay-text">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture</h1>
+				<h1 class="overlay-text">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
 			</a>
 		</section>
 
@@ -65,12 +65,12 @@
 		<section class="home-listings wrap">
 			<article class="home-listing">
 				<img src="/assets/images/new-river-bridge.jpg">
-				<h1>Every Single West Virginian has Taken this Same Exact Picture</h1>
+				<h1>Every Single West Virginian has Taken this Same Exact Picture at the New River Gorge Bridge</h1>
 				<div class="home-listing-info">
 					<time datetime="2018-01-22">January 22, 2018</time>
 					<span class="overlay-category travel">Travel</span>
 				</div>
-				<p>Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text.</p>
+				<p>Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text.</p>
 			</article>
 			<article class="home-listing">
 				<img src="/assets/images/vesuvius-2.jpg">
