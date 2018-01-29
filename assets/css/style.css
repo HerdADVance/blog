@@ -76,6 +76,7 @@ section{
 }
 .section-title{
 	border-bottom: 1px solid #CCC;
+	color: #04954A;
 	padding-bottom: 5px;
 }
 
@@ -241,8 +242,10 @@ section{
 
 /* ARTICLE HEADER */
 .article-header{
+	border-bottom: 1px solid #CCC;
 	clear: both;
 	margin: 0 0 2.5em;
+	padding-bottom: 0.75em;
 	text-align: center;
 }
 .article-image{
@@ -257,24 +260,31 @@ section{
 	position: fixed;
 	width: 100%;
 }
-.article-author-image{
-	border: 1px solid #000;
-	border-radius: 100%;
-	height: 8em;
-	margin-top: 2em;
-	width: 8em;
-}
 .article-title{
 	color: #000;
 	font-size: 3em;
-	font-weight: bold;
-	margin: 0.25em 0;
+	font-weight: 400;
+	margin: 1.25em 0 0;
+	text-align: left;
 }
 .article-byline{
 	color: #666;
 	display: block;
 	font-size: 1.25em;
-	line-height: 1.25em;
+	line-height: 1.5em;
+	margin-top: 1em;
+	overflow: auto;
+}
+.article-author-image{
+	border: 1px solid #000;
+	border-radius: 100%;
+	float: left;
+	height: 3em;
+	width: 3em;
+}
+.article-author-name, .article-date{
+	float:left;
+	padding-left: 20px;
 }
 
 /* ARTICLE BASICS */
@@ -299,6 +309,7 @@ section{
 .article p, .article li{
 	color: #333;
 	font-size: 1.375em;
+	font-weight: 300;
 }
 .article ul{
 	margin-bottom: 2em;
@@ -327,7 +338,8 @@ section{
 	margin: 1.5em 0 0.5em;
 }
 .related-article-title{
-	color: #04954A;
+	color: #000;
+	font-weight: 400;
 	text-align: center;
 }
 

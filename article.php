@@ -28,11 +28,11 @@
 		<main class="main article-main">
 			<article class="article wrap">
 				<header class="article-header">
-					<img class="article-author-image" src="/assets/images/alex-vance.jpg" alt="Alex Vance">
-					<h1 class="article-title center">Every Single West Virginian Has Taken This Same Goddamn Picture</h1>
+					<h1 class="article-title">Every Single West Virginian Has Taken This Same Goddamn Picture</h1>
 					<span class="article-byline">
-						<strong>Alex Vance</strong><br/>
-						<time datetime="2017-12-26">December 26, 2017</time>
+						<img class="article-author-image" src="/assets/images/alex-vance.jpg" alt="Alex Vance">
+						<strong class="article-author-name">Alex Vance</strong><br/>
+						<time datetime="2017-12-26" class="article-date">December 26, 2017</time>
 					</span>
 				</header>
 				
