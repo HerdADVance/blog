@@ -14,7 +14,7 @@
 <body>
 	<header class="site-header wrap left">
 		<span><a class="site-logo" href="/">Alex Vance</a></span>
-		<nav class="nav">
+		<nav class="nav desktop">
 			<ul>
 				<li><a href="">About</a></li>
 				<li><a href="">Blog</a></li>
@@ -22,15 +22,16 @@
 				<li><a href="">Contact</a></li>
 			</ul>
 		</nav>
+		<span class="mobile hamburger"><img src="/assets/images/hamburger.png"></span>
 	</header>
 	<div class="article-image"></div>
 	<div class="parallax">
 		<main class="main article-main">
 			<article class="article wrap">
 				<header class="article-header">
+					<img class="article-author-image" src="/assets/images/alex-vance.jpg" alt="Alex Vance">
 					<h1 class="article-title">Every Single West Virginian Has Taken This Same Goddamn Picture</h1>
 					<span class="article-byline">
-						<img class="article-author-image" src="/assets/images/alex-vance.jpg" alt="Alex Vance">
 						<strong class="article-author-name">Alex Vance</strong><br/>
 						<time datetime="2017-12-26" class="article-date">December 26, 2017</time>
 					</span>

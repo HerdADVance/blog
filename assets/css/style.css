@@ -7,6 +7,9 @@ h1, h2, h3, h4, h5, h6, ul, li{
 a{
 	text-decoration: none;
 }
+.mobile{
+	display: none;
+}
 .left{
 	text-align: left;
 }
@@ -29,7 +32,7 @@ p{
 	margin: 0 0 30px 0;
 }
 .wrap{
-	padding: 0 12%;
+	padding: 0 7%;
 }
 .clear :after {
   content: "";
@@ -279,8 +282,8 @@ section{
 	border: 1px solid #000;
 	border-radius: 100%;
 	float: left;
-	height: 3em;
-	width: 3em;
+	height: 8em;
+	width: 8em;
 }
 .article-author-name, .article-date{
 	float:left;
@@ -368,8 +371,32 @@ section{
 
 /* MEDIA QUERIES */
 @media(max-width: 800px){
+	.mobile{
+		display: block;
+	}
+	.desktop{
+		display: none;
+	}
+	.wrap{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.nav{
+		
+	}
+	.hamburger{
+		cursor: pointer;
+		float: right;
+		line-height: 60px;
+	}
 	.home-articles article{
 		width: 100%;
+	}
+	.home-listing{
+		border-bottom: 1px solid #CCC;
+	}
+	.home-listing h1{
+		margin: 0.5em 0 0.375em;
 	}
 	.home-listing img{
 		float: none;
@@ -378,10 +405,6 @@ section{
 	}
 	.article-title{
 		font-size: 2.25em;
-	}
-	.wrap{
-		padding-left: 5%;
-		padding-right: 5%;
 	}
 	.article ul{
 		padding-left: 30px;

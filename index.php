@@ -19,7 +19,7 @@
 <body>
 	<header class="site-header wrap left">
 		<span><a class="site-logo" href="/">Alex Vance</a></span>
-		<nav class="nav">
+		<nav class="nav desktop">
 			<ul>
 				<li><a href="">About</a></li>
 				<li><a href="">Blog</a></li>
@@ -27,6 +27,7 @@
 				<li><a href="">Contact</a></li>
 			</ul>
 		</nav>
+		<span class="mobile hamburger"><img src="/assets/images/hamburger.png"></span>
 	</header>
 	<main class="main home-main">
 		<section class="home-featured" style="background-image: radial-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.5)), url('/assets/images/new-river-overlook-feet.jpg');">
