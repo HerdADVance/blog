@@ -21,6 +21,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
 	min-height: 100vh;
 	text-align: center;
 }
@@ -370,6 +371,26 @@ section{
 
 
 /* MEDIA QUERIES */
+@media(max-width: 2000px){
+	body{
+		font-size: 20px;
+	}
+}
+@media(max-width: 1800px){
+	body{
+		font-size: 18px;
+	}
+}
+@media(max-width: 1400px){
+	body{
+		font-size: 16px;
+	}
+}
+@media(max-width: 1050px){
+	body{
+		font-size: 14px;
+	}
+}
 @media(max-width: 800px){
 	.mobile{
 		display: block;
@@ -418,5 +439,10 @@ section{
 	.related-article{
 		margin-bottom: 2em;
 		width: 100%;
+	}
+}
+@media(max-width: 600px){
+	body{
+		font-size: 12px;
 	}
 }
