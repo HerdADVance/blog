@@ -1,15 +1,15 @@
-$(document).ready(function() {
+//$(document).ready(function() {
     //callFullpage();
 
-    var articleTitleHeight = $('.article-title').height() + 35;
+    var articleTitleHeight = $('.article-title').height() + 40;
 
-    setTimeout(scrollTitleUp(articleTitleHeight), 750);
+    setTimeout(scrollTitleUp, 1000);
 
-    function scrollTitleUp(height) {
-        $("html, body").animate({ scrollTop: height }, 1000);
+    function scrollTitleUp() {
+        $("html, body").animate({ scrollTop: articleTitleHeight }, 500);
     }
 
-});
+//});
 
 // $(document).on('click', '.arrow', function(){
 //   $.fn.fullpage.moveSectionDown();

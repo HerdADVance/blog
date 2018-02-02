@@ -11,6 +11,8 @@
 	<meta property="og:url" content="URL link" />
 	<meta property="og:description" content="Description" />
 
+	<link rel="icon" type="image/png" href="/assets/favicon/favicon.png" />
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
