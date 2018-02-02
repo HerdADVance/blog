@@ -36,6 +36,7 @@
 					<span class="article-byline">
 						<strong class="article-author-name">Alex Vance</strong>
 						<time datetime="2017-12-26" class="article-date">February 2, 2018</time>
+						<span class="article-category travel">Travel</span>
 					</span>
 				</header>
 				

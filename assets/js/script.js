@@ -1,7 +1,7 @@
 $(document).ready(function() {
     //callFullpage();
 
-    var articleTitleHeight = $('.article-title').height() + 30;
+    var articleTitleHeight = $('.article-title').height() + 35;
 
     setTimeout(scrollTitleUp(articleTitleHeight), 750);
 

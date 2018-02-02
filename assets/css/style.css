@@ -63,11 +63,11 @@ p{
 }
 
 /* CATEGORY COLORS */
-.sports{background-color: black;}
-.code{background-color: black;}
-.politics{background-color: black;}
-.fitness{background-color: black;}
-.travel{background-color: midnightblue;}
+.sports{background-color: black !important;}
+.code{background-color: black !important;}
+.politics{background-color: black !important;}
+.fitness{background-color: black !important;}
+.travel{background-color: midnightblue !important;}
 
 /* SECTIONS */
 .main{
@@ -267,7 +267,7 @@ section{
 	color: #000;
 	font-size: 2.75em;
 	font-weight: 400;
-	margin: 0.375em 0 0.375em;
+	margin: 0.5em 0 0.375em;
 	text-align: center;
 }
 .article-author-image{
@@ -281,16 +281,21 @@ section{
 	margin-top: -0.75em;
 	overflow: auto;
 }
-.article-author-name, .article-date{
+.article-author-name, .article-date, .article-category{
 	background: #CCC;
 	color: #333;
 	float:left;
-	font-size: 1.125em;
+	font-size: 1.25em;
 	font-weight: 300;
 	padding: 5px 10px;
 }
 .article-date{
 	border-left: 1px solid #333;
+}
+.article-category{
+	color: #FFF;
+	cursor: pointer;
+	float: right;
 }
 
 /* ARTICLE BASICS */
