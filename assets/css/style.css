@@ -249,7 +249,6 @@ section{
 	border-bottom: 1px solid #CCC;
 	clear: both;
 	margin: 0 0 2.5em;
-	padding-bottom: 0.75em;
 	text-align: center;
 }
 .article-image{
@@ -266,29 +265,32 @@ section{
 }
 .article-title{
 	color: #000;
-	font-size: 3em;
+	font-size: 2.75em;
 	font-weight: 400;
-	margin: 1.25em 0 0;
-	text-align: left;
-}
-.article-byline{
-	color: #666;
-	display: block;
-	font-size: 1.25em;
-	line-height: 1.5em;
-	margin-top: 1em;
-	overflow: auto;
+	margin: 0.375em 0 0.375em;
+	text-align: center;
 }
 .article-author-image{
 	border: 1px solid #000;
 	border-radius: 100%;
-	float: left;
-	height: 8em;
-	width: 8em;
+	height: 4em;
+	width: 4em;
+}
+.article-byline{
+	display: block;
+	margin-top: -0.75em;
+	overflow: auto;
 }
 .article-author-name, .article-date{
+	background: #CCC;
+	color: #333;
 	float:left;
-	padding-left: 20px;
+	font-size: 1.125em;
+	font-weight: 300;
+	padding: 5px 10px;
+}
+.article-date{
+	border-left: 1px solid #333;
 }
 
 /* ARTICLE BASICS */
@@ -349,11 +351,11 @@ section{
 
 /* FOOTER */
 .site-footer{
-	background: #222;
-	border-top: 10px solid #04954A;
+	background: #000;
+	border-top: 3px solid #04954A;
 	color: #FFF;
-	padding-bottom: 4em;
-	padding-top: 4em;
+	padding-bottom: 2em;
+	padding-top: 2em;
 	text-align: center;
 }
 
@@ -424,14 +426,8 @@ section{
 		margin-right: 0;
 		width: 100%;
 	}
-	.article-title{
-		font-size: 2.25em;
-	}
 	.article ul{
 		padding-left: 30px;
-	}
-	.article li, .article p{
-		font-size: 1.125em;
 	}
 	.related-articles{
 		display: block;

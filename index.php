@@ -110,8 +110,8 @@
 		<p>But seriously, why is this even here? Who's going to steal this?</p>
 	</footer>
 
-	<!--script src="/assets/js/fullpage.min.js"></script>
-	<script src="/assets/js/script.js"></script-->
+	<!--script src="/assets/js/fullpage.min.js"></script-->
+	<script src="/assets/js/script.js"></script>
 
 	<!--button class="to-top">^</button-->
 </body>

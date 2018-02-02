@@ -10,6 +10,8 @@
 	<meta property="og:site_name" content="Blog Title" />
 	<meta property="og:url" content="URL link" />
 	<meta property="og:description" content="Description" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
 	<header class="site-header wrap left">
@@ -29,11 +31,11 @@
 		<main class="main article-main">
 			<article class="article wrap">
 				<header class="article-header">
+					<h1 class="article-title">Every Single West Virginian Has Taken This Same Goddamn Picture at the New River Gorge</h1>
 					<img class="article-author-image" src="/assets/images/alex-vance.jpg" alt="Alex Vance">
-					<h1 class="article-title">Every Single West Virginian Has Taken This Same Goddamn Picture</h1>
 					<span class="article-byline">
-						<strong class="article-author-name">Alex Vance</strong><br/>
-						<time datetime="2017-12-26" class="article-date">December 26, 2017</time>
+						<strong class="article-author-name">Alex Vance</strong>
+						<time datetime="2017-12-26" class="article-date">February 2, 2018</time>
 					</span>
 				</header>
 				
@@ -100,6 +102,9 @@
 		</footer>
 
 	</div> <!--Parallax-->
+
+	<!--script src="/assets/js/fullpage.min.js"></script-->
+	<script src="/assets/js/script.js"></script>
 
 	<!--button class="to-top">^</button-->
 </body>
