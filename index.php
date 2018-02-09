@@ -107,7 +107,7 @@
 
 	<footer class="site-footer wrap">
 		<p>&copy; Alex Vance 2018</p>
-		<p>But seriously, why is this even here? Who's going to steal this?</p>
+		<!--p>But seriously, why is this even here? Who's going to steal this?</p-->
 	</footer>
 
 	<!--script src="/assets/js/fullpage.min.js"></script-->

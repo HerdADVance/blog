@@ -27,3 +27,7 @@
 //         loopHorizontal: true
 //     });
 // }
+
+$('.hamburger').click(function(){
+    $('.nav').toggle();
+})
