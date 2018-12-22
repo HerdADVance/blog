@@ -4,7 +4,7 @@
 	<title>Alex Vance</title>
 	<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css"/>
 	<link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
 	<meta property="og:title" content="Blog Title" />
 	<meta property="og:image" content="Image Link"/>
 	<meta property="og:site_name" content="Blog Title" />
@@ -13,51 +13,68 @@
 
 	<link rel="icon" type="image/png" href="/assets/favicon/favicon.png" />
 
-	<link rel="stylesheet" type="text/css" href="/assets/css/fullpage.min.css"/>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
-	<header class="site-header wrap left">
-		<span><a class="site-logo" href="/">Alex Vance</a></span>
-		<nav class="nav desktop">
-			<ul>
-				<li><a href="">About</a></li>
-				<li><a href="">Blog</a></li>
-				<li><a href="">Portfolio</a></li>
-				<li><a href="">Contact</a></li>
-			</ul>
-		</nav>
-		<span class="mobile hamburger"><img src="/assets/images/hamburger.png"></span>
+	<header class="header wrap-bg left cover flex" style="background-image:url(/assets/images/new-river-overlook-feet.jpg);">
+		<div class="header-top wrap-bg full unwrap ter flex centered">
+			<a class="logo white-text center" href="/">Ball So Herd</a>
+			<!--nav class="nav">
+				<ul>
+					<li><a href="">About</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Portfolio</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</nav>
+			<span class="mobile hamburger"><img src="/assets/images/hamburger.png"></span-->
+		</div>
+		<div class="splash">
+			<div class="rel on-topper">
+				<h1 class="white-text">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
+			</div>
+		</div>
+		<div class="overlay"></div>
 	</header>
-	<main class="main home-main">
-		<section class="home-featured" style="background-image: radial-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.5)), url('/assets/images/new-river-overlook-feet.jpg');">
-			<a href="/article.php">
+	<main class="main-home">
+		<article class="home-article row">
+			<div class="col-4">
+				<img src="/assets/images/cincinnati-hotel.jpg">
+			</div>
+			<div class="col-8">
 				<h1 class="overlay-text">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
-			</a>
-		</section>
+				<date>December 27, 2018</date>
+				<div class="excerpt">
+					<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure.</p>
+				</div>
+			</div>
+		</article>
+		<article class="home-article row">
+			<div class="col-4">
+				<img src="/assets/images/stonewall-lake.jpg">
+			</div>
+			<div class="col-8">
+				<h1 class="overlay-text">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
+				<date>December 27, 2018</date>
+				<div class="excerpt">
+					<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure.</p>
+				</div>
+			</div>
+		</article>
+		<article class="home-article row">
+			<div class="col-4">
+				<img src="/assets/images/vikes-panthers.jpg">
+			</div>
+			<div class="col-8">
+				<h1 class="overlay-text">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
+				<date>December 27, 2018</date>
+				<div class="excerpt">
+					<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure.</p>
+				</div>
+			</div>
+		</article>
 
-		<section class="home-secondary">
-			<div class="home-secondary-article" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/vikes-panthers.jpg');">
-				<a href="/article.php">
-					<h1 class="overlay-text">Stefon Diggs, Real American Hero</h1>
-				</a>
-				<div class="overlay-category sports">Sports</div>
-			</div>
-			<div class="home-secondary-article" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/wilmington-beach.jpg');">
-				<a href="/article.php">
-					<h1 class="overlay-text">Some Civil War Shit Went Down Here</h1>
-				</a>
-				<div class="overlay-category travel">Travel</div>
-			</div>
-			<div class="home-secondary-article" style="background-image: radial-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.4)), url('/assets/images/winston-salem-snow.jpg');">
-				<a href="/article.php">
-					<h1 class="overlay-text">Why the Fuck is it Snowing Here?</h1>
-				</a>
-				<div class="overlay-category travel">Travel</div>
-			</div>
-		</section>
-
-		<section class="home-welcome wrap">
+		<!--section class="home-welcome wrap">
 			<p>Howdy.</p>
 			<p>No matter which set of poor life choices led to your discovery of this blog, it's probably safe to assume you have an affinity for some combination of Javascript, cursed sports teams, many different forms of gambling, chess, cats, travel, and a healthy contempt for the shitshow currently running the United States.</p>
 			<p>If so, welcome! You might actually be in the right place. Maybe. This might not be the right place for anybody.</p>
@@ -105,13 +122,12 @@
 		
 	</main>
 
-	<footer class="site-footer wrap">
+	<footer class="footer wrap-bg pri">
 		<p>&copy; Alex Vance 2018</p>
 		<!--p>But seriously, why is this even here? Who's going to steal this?</p-->
 	</footer>
 
-	<!--script src="/assets/js/fullpage.min.js"></script-->
-	<script src="/assets/js/script.js"></script>
+	<!--script src="/assets/js/script.js"></script-->
 
 	<!--button class="to-top">^</button-->
 </body>
