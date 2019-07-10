@@ -2,77 +2,101 @@
 <html>
 <head>
 	<title>Alex Vance</title>
+
+	<link rel="icon" type="image/png" href="/assets/favicon/favicon.png" />
+
 	<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css"/>
 	<link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Charm:400,700|EB+Garamond:400,400i,700|Fjalla+One|Open+Sans+Condensed:300,700|Open+Sans:300,400,700|Oswald:300,400,700|Prompt:300,400,400i,700|Roboto+Slab:300,400,700|Slabo+27px|Quicksand:300,400,500,700|Exo+2:100,300,400,600,700" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap" rel="stylesheet">
+	
+
 	<meta property="og:title" content="Blog Title" />
 	<meta property="og:image" content="Image Link"/>
 	<meta property="og:site_name" content="Blog Title" />
 	<meta property="og:url" content="URL link" />
 	<meta property="og:description" content="Description" />
 
-	<link rel="icon" type="image/png" href="/assets/favicon/favicon.png" />
-
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
-	<header class="header wrap-bg left cover flex" style="background-image:url(/assets/images/new-river-overlook-feet.jpg);">
-		<div class="header-top wrap-bg full unwrap ter flex centered">
-			<a class="logo white-text center" href="/">Ball So Herd</a>
-			<!--nav class="nav">
+	<!--header class="header row on-toppest abs wrap-bg full flex" id="header">
+		<div class="col-4">
+			<a class="logo white-text center fancy bold" href="/">Ball So Herd</a>
+		</div>
+		<div class="col-8">
+			<nav class="nav nav-inline nav-inline-right">
 				<ul>
+					<li><a href="">Blog Topics</a></li>
 					<li><a href="">About</a></li>
-					<li><a href="">Blog</a></li>
-					<li><a href="">Portfolio</a></li>
 					<li><a href="">Contact</a></li>
 				</ul>
 			</nav>
-			<span class="mobile hamburger"><img src="/assets/images/hamburger.png"></span-->
 		</div>
-		<div class="splash">
-			<div class="rel on-topper">
-				<h1 class="white-text">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
-			</div>
+	</header--> 
+	<article class="home-feature cover flex rel" style="background-image:url(/assets/images/siesta-key-sunset.jpg);">
+		<div class="home-feature-text on-topper centered center rel">
+			<h1 class="white-text no-mar">Hey, Look, The Vikings Blew Another Huge Game This Year</h1>
 		</div>
 		<div class="overlay"></div>
-	</header>
+	</article>
+	<section class="welcome wrap-bg ter row no-pad-y flex" id="welcome">
+		<div class="col-3 centered">
+			<h1 class="white-text no-mar">Ball So Herd</h1>
+		</div>
+		<div class="col-9">
+			<nav class="nav nav-inline nav-inline-right">
+				<ul>
+					<li><a href="">Blog Topics</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</section>
 	<main class="main-home">
-		<article class="home-article row">
-			<div class="col-4">
-				<img src="/assets/images/cincinnati-hotel.jpg">
-			</div>
-			<div class="col-8">
-				<h1 class="overlay-text">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
-				<date>December 27, 2018</date>
-				<div class="excerpt">
-					<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure.</p>
+		<p class="no-mar black-text">Welcome to BallSoHerd.com, a blog about Herd sports, web development, travel, politics, gambling, and maybe sometimes cats.</p>
+		<h1 class="wrap">Blog Articles</h1>
+		<div class="home-articles-con">
+			<article class="home-article row wrap-pad">
+				<div class="col-3">
+					<img src="/assets/images/cincinnati-hotel.jpg">
 				</div>
-			</div>
-		</article>
-		<article class="home-article row">
-			<div class="col-4">
-				<img src="/assets/images/stonewall-lake.jpg">
-			</div>
-			<div class="col-8">
-				<h1 class="overlay-text">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
-				<date>December 27, 2018</date>
-				<div class="excerpt">
-					<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure.</p>
+				<div class="col-9">
+					<h1 class="abc">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
+					<date>December 27, 2018</date>
+					<div class="excerpt">
+						<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure.</p>
+					</div>
 				</div>
-			</div>
-		</article>
-		<article class="home-article row">
-			<div class="col-4">
-				<img src="/assets/images/vikes-panthers.jpg">
-			</div>
-			<div class="col-8">
-				<h1 class="overlay-text">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
-				<date>December 27, 2018</date>
-				<div class="excerpt">
-					<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure.</p>
+			</article>
+			<article class="home-article row wrap-pad">
+				<div class="col-3">
+					<img src="/assets/images/stonewall-lake.jpg">
 				</div>
-			</div>
-		</article>
+				<div class="col-9">
+					<h1>Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
+					<date>December 27, 2018</date>
+					<div class="excerpt">
+						<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure.</p>
+					</div>
+				</div>
+			</article>
+			<article class="home-article row wrap-pad">
+				<div class="col-3">
+					<img src="/assets/images/vesuvius-2.jpg">
+				</div>
+				<div class="col-9">
+					<h1>Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
+					<date>December 27, 2018</date>
+					<div class="excerpt">
+						<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure.</p>
+					</div>
+				</div>
+			</article>
+		</div>
 
 		<!--section class="home-welcome wrap">
 			<p>Howdy.</p>
@@ -120,14 +144,19 @@
 			<button>Fitness</button>
 		</section-->
 		
+		<div class="author-feature wrap-pad flex">
+			<h1><span>Alex</span><span>Vance</span></h1>
+			<h2>Web Developer</h2>
+		</div>
+
 	</main>
 
-	<footer class="footer wrap-bg pri">
+	<footer class="footer wrap-bg ter">
 		<p>&copy; Alex Vance 2018</p>
 		<!--p>But seriously, why is this even here? Who's going to steal this?</p-->
 	</footer>
 
-	<!--script src="/assets/js/script.js"></script-->
+	<script src="/assets/js/script.js"></script>
 
 	<!--button class="to-top">^</button-->
 </body>
