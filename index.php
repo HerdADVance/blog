@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Alex Vance</title>
+	<title>Ball So Herd | A blog by Alex Vance</title>
 
 	<link rel="icon" type="image/png" href="/assets/favicon/favicon.png" />
 
@@ -36,105 +36,103 @@
 			</nav>
 		</div>
 	</header--> 
-	<article class="home-feature cover flex rel" style="background-image:url(/assets/images/siesta-key-sunset.jpg);">
-		<div class="home-feature-text on-topper centered center rel">
-			<h1 class="white-text no-mar">Hey, Look, The Vikings Blew Another Huge Game This Year</h1>
-		</div>
-		<div class="overlay"></div>
+	<article class="home-feature cover flex rel" style="background-image:url(/assets/images/new-river-overlook-feet.jpg);">
+		<a href="/article.php">
+			<div class="home-feature-text on-topper centered center rel">
+				<h1 class="white-text no-mar">Hey, Look, The Vikings Blew Another Huge Game This Year</h1>
+			</div>
+			<div class="overlay"></div>
+		</a>
 	</article>
-	<section class="welcome wrap-bg ter row no-pad-y flex" id="welcome">
-		<div class="col-3 centered">
+	<header class="header wrap-bg ter row no-pad-y flex" id="welcome">
+		<div class="col-4">
 			<h1 class="white-text no-mar">Ball So Herd</h1>
 		</div>
-		<div class="col-9">
+		<div class="col-8">
 			<nav class="nav nav-inline nav-inline-right">
 				<ul>
-					<li><a href="">Blog Topics</a></li>
 					<li><a href="">About</a></li>
+					<li><a href="">Portfolio</a></li>
+					<li><a href="">Resume</a></li>
 					<li><a href="">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
-	</section>
+	</header>
 	<main class="main-home">
-		<p class="no-mar black-text">Welcome to BallSoHerd.com, a blog about Herd sports, web development, travel, politics, gambling, and maybe sometimes cats.</p>
-		<h1 class="wrap">Blog Articles</h1>
+
+		<div class="welcome wrap-pad centered">
+			<p>Welcome to BallSoHerd.com, the personal site and blog of Alex Vance &mdash; a professional web developer and kickball superstar from Huntington, West Virginia.</p>
+			<p>You'll find a lot of about web development here, but also a healthy mix of articles about sports (especially Marshall Thundering Herd football & basketball), travel, cats, gambling, and yes, maybe sometimes even politics.</p>
+		</div>
 		<div class="home-articles-con">
-			<article class="home-article row wrap-pad">
-				<div class="col-3">
-					<img src="/assets/images/cincinnati-hotel.jpg">
-				</div>
-				<div class="col-9">
-					<h1 class="abc">Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
-					<date>December 27, 2018</date>
-					<div class="excerpt">
-						<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure.</p>
+			<article class="home-article row">
+				<a href="/article.php">
+					<div class="home-article-text row wrap-pad">
+						<div class="col-4">
+							<img src="/assets/images/stonewall-lake.jpg">
+						</div>
+						<div class="col-8">
+							<h1>What in the Fuck is Going on in Huntington?</h1>
+							<div class="home-article-byline row">
+								<date class="home-article-date">December 27, 2018</date>
+								<ul class="home-article-tags">
+									<li>Sports</li>
+									<li>Travel</li>
+								</ul>
+							</div>
+							<div class="home-article-excerpt">
+								<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure. Aaaaand Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview.</p>
+							</div>
+						</div>
 					</div>
-				</div>
+				</a>
 			</article>
-			<article class="home-article row wrap-pad">
-				<div class="col-3">
-					<img src="/assets/images/stonewall-lake.jpg">
-				</div>
-				<div class="col-9">
-					<h1>Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
-					<date>December 27, 2018</date>
-					<div class="excerpt">
-						<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure.</p>
+			<article class="home-article row">
+				<a href="/article.php">
+					<div class="home-article-text row wrap-pad">
+						<div class="col-4">
+							<img src="/assets/images/stonewall-lake.jpg">
+						</div>
+						<div class="col-8">
+							<h1>What in the Fuck is Going on in Huntington?</h1>
+							<div class="home-article-byline row">
+								<date class="home-article-date">December 27, 2018</date>
+								<ul class="home-article-tags">
+									<li>Sports</li>
+									<li>Travel</li>
+								</ul>
+							</div>
+							<div class="home-article-excerpt">
+								<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure. Aaaaand Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview.</p>
+							</div>
+						</div>
 					</div>
-				</div>
+				</a>
 			</article>
-			<article class="home-article row wrap-pad">
-				<div class="col-3">
-					<img src="/assets/images/vesuvius-2.jpg">
-				</div>
-				<div class="col-9">
-					<h1>Everyone in West Virginia Has Taken This Same Exact Goddamn Picture at the New River Gorge Bridge</h1>
-					<date>December 27, 2018</date>
-					<div class="excerpt">
-						<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure.</p>
+			<article class="home-article row">
+				<a href="/article.php">
+					<div class="home-article-text row wrap-pad">
+						<div class="col-4">
+							<img src="/assets/images/stonewall-lake.jpg">
+						</div>
+						<div class="col-8">
+							<h1>What in the Fuck is Going on in Huntington?</h1>
+							<div class="home-article-byline row">
+								<date class="home-article-date">December 27, 2018</date>
+								<ul class="home-article-tags">
+									<li>Sports</li>
+									<li>Travel</li>
+								</ul>
+							</div>
+							<div class="home-article-excerpt">
+								<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure. Aaaaand Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview.</p>
+							</div>
+						</div>
 					</div>
-				</div>
+				</a>
 			</article>
 		</div>
-
-		<!--section class="home-welcome wrap">
-			<p>Howdy.</p>
-			<p>No matter which set of poor life choices led to your discovery of this blog, it's probably safe to assume you have an affinity for some combination of Javascript, cursed sports teams, many different forms of gambling, chess, cats, travel, and a healthy contempt for the shitshow currently running the United States.</p>
-			<p>If so, welcome! You might actually be in the right place. Maybe. This might not be the right place for anybody.</p>
-		</section>
-
-		<section class="home-listings wrap">
-			<article class="home-listing">
-				<img src="/assets/images/new-river-bridge.jpg">
-				<h1>Every Single West Virginian has Taken this Same Exact Picture at the New River Gorge Bridge</h1>
-				<div class="home-listing-info">
-					<time datetime="2018-01-22">January 22, 2018</time>
-					<span class="overlay-category travel">Travel</span>
-				</div>
-				<p>Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text.</p>
-			</article>
-			<article class="home-listing">
-				<img src="/assets/images/vesuvius-2.jpg">
-				<h1>Here's Another Headline</h1>
-				<p>Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text.</p>
-			</article>
-			<article class="home-listing">
-				<img src="/assets/images/winston-salem-snow.jpg">
-				<h1>Here's Another Headline</h1>
-				<p>Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text.</p>
-			</article>
-			<article class="home-listing">
-				<img src="/assets/images/siesta-key-sunset.jpg">
-				<h1>Here's Another Headline</h1>
-				<p>Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text.</p>
-			</article>
-			<article class="home-listing">
-				<img src="/assets/images/stonewall-lake.jpg">
-				<h1>Here's Another Headline</h1>
-				<p>Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text. Lorem ipsum filler preview text.</p>
-			</article>
-		</section>
 
 		<!--section class="home-sections">
 			<button>Code</button>
@@ -152,8 +150,8 @@
 	</main>
 
 	<footer class="footer wrap-bg ter">
-		<p>&copy; Alex Vance 2018</p>
-		<!--p>But seriously, why is this even here? Who's going to steal this?</p-->
+		<p class="centered">&copy; Alex Vance 2019</p>
+		<p class="centered">But seriously, why is this even here? Who's going to steal this?</p>
 	</footer>
 
 	<script src="/assets/js/script.js"></script>
