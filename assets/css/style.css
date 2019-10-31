@@ -11,7 +11,7 @@ body {
   color: #6B6B6B;
   display: flex;
   flex-direction: column;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-size: 16px;
   min-height: 100vh;
 }
@@ -437,16 +437,19 @@ article a{
   background: rgba(95, 173, 114, 0.65);
   bottom: -8vh;
   height: 8vh;
-  margin-top: -8vh;
-  position: relative;
+  position: absolute;
   width: 100%;
-  z-index: 2;
+  z-index: 3;
 }
 .header.sticky{
   background: rgba(95, 173, 114, 0.95);
   margin-top: 0;
   position: fixed;
   top: 0;
+}
+.is-article .header{
+  background: rgba(95, 173, 114, 0.85);
+  position: relative;
 }
 .logo{
   font-size: 1.25em;
@@ -469,11 +472,11 @@ article a{
 
 /* ----- HOME FEATURE ----- */
 .home-feature {
-  background-position-y: 40%;
+  background-position-y: 0%;
   height: 100vh;
 }
 .home-feature .overlay{
-  background-image: linear-gradient(to top, rgba(0,0,0,0.4) 0%, rgba(0,0,0, 0.6) 80%, rgba(0,0,0,1) 100%);
+  background: rgba(0,0,0,0.6)
 }
 .home-feature-text{
   margin-top: -4vh;
@@ -592,11 +595,10 @@ article a{
 /*----- ARTICLE HEADER -----*/
 .article-image{
   align-items: center;
-  background-position: center;
+  background-position-y: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  /*box-shadow: 0 5px 3px #EEE*/;
-  display: flex;
+  display: none;
   height: 100vh;
   justify-content: center;
   position: fixed;
@@ -609,18 +611,19 @@ article a{
   z-index: 2;
 }
 .article-header{
-  background: rgba(255,255,255,0.7);
+  background: rgba(0,0,0,0.925);
   clear: both;
-  height: 25vh;
   justify-content: center;
   margin: 0;
+  padding-bottom: 3em;
+  padding-top: 3em;
   text-align: center;
 }
 .article-header-text{
   width: 100%;
 }
 .article-header-title{
-  color: #000;
+  color: #FFF;
   font-size: 1.75em;
   font-weight: 400;
   margin: 0;
@@ -633,7 +636,6 @@ article a{
   display: block;
   font-size: 0.95em;
   margin-top: 0.75em;
-  overflow: auto;
 }
 
 .article-header-date{
@@ -677,14 +679,18 @@ article a{
 
 /* RELATED ARTICLES */
 .related-articles{
-  background: rgba(0,0,0,0.75);
+  background: rgba(220,220,220,1);
 }
 .related-articles-wrap{
   display: flex;
   justify-content: space-between;
 }
+.related-articles h1{
+  color: #333;
+  margin-bottom: 0.5em;
+}
 .related-article{
-  width: 32%;
+  width: 46%;
 }
 .related-article-image{
   background-position: center;
@@ -693,7 +699,7 @@ article a{
   margin: 1.5em 0 0.5em;
 }
 .related-article-title{
-  color: #FFF;
+  color: #333;
   font-weight: 400;
   text-align: center;
 }
@@ -704,40 +710,43 @@ article a{
 
 /* ----- AUTHOR FEATURE ----- */
 .author-feature{
-  background: linear-gradient(to left top, rgba(59, 58, 80,0.5) 0%,rgba(59, 58, 80,0.8) 50%,rgba(59, 58, 80,1) 100%);
-  background: linear-gradient(to left top, rgba(95, 173, 114,1) 0%, rgba(59, 58, 80,1) 100%);
-  background: #2A293E;
+  align-items: center;
+  background: linear-gradient(to right bottom, rgba(19, 5, 36, 1) 30%, rgba(95, 173, 114, 1) 100%);
+  display: flex;
+  justify-content: left;
   padding-bottom: 3em;
   padding-top: 3em;
 }
 
 .author-feature img{
   border-radius: 100%;
-  float: left;
   height: 10em;
+  margin-right: 3em;
   width: 10em;
 }
 .author-feature h1{
   color: #FFF;
-  font-family: 'Exo 2', sans-serif;
-  font-size: 90px;
+  font-size: 32px;
   font-weight: 100;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
   text-transform: uppercase;
 }
 
 .author-feature h2{
-  color: #999;
-  font-family: 'Exo 2', sans-serif;
-  font-size: 32px;
+  color: #CCC;
+  font-size: 20px;
   font-weight: 100;
-  text-transform: uppercase;
+  margin: 0;
 }
 
 .author-feature span{
   display: block;
 }
 
+.author-feature p{
+  color: white;
+  font-size: 0.875em;
+}
 
 
 /* ----- FOOTER ----- */
@@ -751,7 +760,6 @@ article a{
   font-weight: 300;
   line-height: 1.375em;
   margin: 0.5em 0;
-  text-align: left
 }
 
 

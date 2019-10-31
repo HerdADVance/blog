@@ -5,7 +5,8 @@ var windowHeight;
 $(document).ready(function() {
 	getWindowHeight();
 	wooshHeader();
-	wooshArticleHeader();
+	fadeInArticleImage();
+	//wooshArticleHeader();
 });
 
 /* FUNCTIONS TO BE RAN EVERY TIME USER RESIZES BROWSER WINDOW */
@@ -20,6 +21,10 @@ $(window).scroll(function() {
 
 
 // FUNCTIONS
+
+function fadeInArticleImage(){
+	$('.article-image').fadeIn();
+}
 
 function fixedNavOrNah(){
 	var fromTop = $(window).scrollTop();

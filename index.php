@@ -8,10 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css"/>
 	<link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
 
-	<link href="https://fonts.googleapis.com/css?family=Charm:400,700|EB+Garamond:400,400i,700|Fjalla+One|Open+Sans+Condensed:300,700|Open+Sans:300,400,700|Oswald:300,400,700|Prompt:300,400,400i,700|Roboto+Slab:300,400,700|Slabo+27px|Quicksand:300,400,500,700|Exo+2:100,300,400,600,700" rel="stylesheet">
-
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap" rel="stylesheet">
-	
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
 
 	<meta property="og:title" content="Blog Title" />
 	<meta property="og:image" content="Image Link"/>
@@ -22,28 +19,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
-	<!--header class="header row on-toppest abs wrap-bg full flex" id="header">
-		<div class="col-4">
-			<a class="logo white-text center fancy bold" href="/">Ball So Herd</a>
-		</div>
-		<div class="col-8">
-			<nav class="nav nav-inline nav-inline-right">
-				<ul>
-					<li><a href="">Blog Topics</a></li>
-					<li><a href="">About</a></li>
-					<li><a href="">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header--> 
-	<article class="home-feature cover flex rel" style="background-image:url(/assets/images/new-river-overlook-feet.jpg);">
-		<a href="/article.php">
-			<div class="home-feature-text on-topper centered center rel">
-				<h1 class="white-text no-mar">Hey, Look, The Vikings Blew Another Huge Game This Year</h1>
-			</div>
-			<div class="overlay"></div>
-		</a>
-	</article>
+
 	<header class="header wrap-bg ter row no-pad-y flex" id="welcome">
 		<div class="col-4">
 			<h1 class="white-text no-mar">Ball So Herd</h1>
@@ -59,12 +35,31 @@
 			</nav>
 		</div>
 	</header>
+
+	<article class="home-feature cover flex rel" style="background-image:url(/assets/images/boise-night.jpg);">
+		<a href="/article.php">
+			<div class="home-feature-text on-topper centered center rel">
+				<h1 class="white-text no-mar">Hey, Look, The Vikings Blew Another Huge Game This Year</h1>
+			</div>
+			<div class="overlay"></div>
+		</a>
+	</article>
+
 	<main class="main-home">
 
-		<div class="welcome wrap-pad centered">
+		<!--div class="welcome wrap-pad centered">
 			<p>Welcome to BallSoHerd.com, the personal site and blog of Alex Vance &mdash; a professional web developer and kickball superstar from Huntington, West Virginia.</p>
 			<p>You'll find a lot of about web development here, but also a healthy mix of articles about sports (especially Marshall Thundering Herd football & basketball), travel, cats, gambling, and yes, maybe sometimes even politics.</p>
+		</div-->
+
+		<div class="author-feature wrap-bg">
+			<img src="/assets/images/alex-nibbler.jpg">
+			<div class="author-feature-info">
+				<h1>Alex Vance</h1>
+				<h2>Web Developer</h2>
+			</div>
 		</div>
+
 		<div class="home-articles-con">
 			<article class="home-article row">
 				<a href="/article.php">
