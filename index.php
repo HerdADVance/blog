@@ -3,12 +3,13 @@
 <head>
 	<title>Ball So Herd | A blog by Alex Vance</title>
 
-	<link rel="icon" type="image/png" href="/assets/favicon/favicon.png" />
+	<link rel="icon" type="image/png" href="fav.png" />
 
 	<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css"/>
 	<link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
 
 	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Prociono|Vollkorn&display=swap" rel="stylesheet">
 
 	<meta property="og:title" content="Blog Title" />
 	<meta property="og:image" content="Image Link"/>
@@ -36,10 +37,10 @@
 		</div>
 	</header>
 
-	<article class="home-feature cover flex rel" style="background-image:url(/assets/images/boise-night.jpg);">
+	<article class="home-feature cover flex rel" style="background-image:url(/assets/images/denver-golf.jpg);">
 		<a href="/article.php">
 			<div class="home-feature-text on-topper centered center rel">
-				<h1 class="white-text no-mar">Hey, Look, The Vikings Blew Another Huge Game This Year</h1>
+				<h1 class="white-text no-mar">Here's a Pretty Fucking Awesome Golf Course in Golden, Colorado</h1>
 			</div>
 			<div class="overlay"></div>
 		</a>
@@ -47,20 +48,31 @@
 
 	<main class="main-home">
 
-		<!--div class="welcome wrap-pad centered">
-			<p>Welcome to BallSoHerd.com, the personal site and blog of Alex Vance &mdash; a professional web developer and kickball superstar from Huntington, West Virginia.</p>
-			<p>You'll find a lot of about web development here, but also a healthy mix of articles about sports (especially Marshall Thundering Herd football & basketball), travel, cats, gambling, and yes, maybe sometimes even politics.</p>
-		</div-->
 
-		<div class="author-feature wrap-bg">
-			<img src="/assets/images/alex-nibbler.jpg">
-			<div class="author-feature-info">
-				<h1>Alex Vance</h1>
-				<h2>Web Developer</h2>
+		<div class="home-showcases">
+			<div class="row">
+				<div class="col-4" style="background-image:url(/assets/images/boise-night.jpg);">
+					<h1>Football Field Trip: Marshall @ Boise State</h1>
+					<div class="overlay"></div>
+				</div>
+				<div class="col-4" style="background-image:url(/assets/images/vikes-panthers.jpg);">
+					<h1>Hey Look, the Vikings Blew Another Big Game</h1>
+					<div class="overlay"></div>
+				</div>
+				<div class="col-4" style="background-image:url(/assets/images/denver-golf.jpg);">
+					<h1>Here's a Really Fucking Cool Golf Course in Golden, Colorado</h1>
+					<div class="overlay"></div>
+				</div>
 			</div>
 		</div>
 
-		<div class="home-articles-con">
+		<div class="welcome wrap-pad centered">
+			<p>Welcome to BallSoHerd.com, the personal site and blog of Alex Vance &mdash; a professional web developer and kickball superstar from Huntington, West Virginia.</p>
+			<p>You'll find a lot of about web development here, but also a healthy mix of articles about sports (especially Marshall Thundering Herd football & basketball), travel, cats, gambling, and yes, maybe sometimes even politics.</p>
+		</div>
+		
+
+		<div class="home-articles">
 			<article class="home-article row">
 				<a href="/article.php">
 					<div class="home-article-text row wrap-pad">
@@ -129,7 +141,7 @@
 			</article>
 		</div>
 
-		<!--section class="home-sections">
+		<section class="home-sections">
 			<button>Code</button>
 			<button>Sports</button>
 			<button>Politics</button>

@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Alex Vance</title>
+	<title>Football Field Trip: Marshall @ Boise State | Ball So Herd</title>
 	<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css"/>
 	<link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Prociono|Vollkorn&display=swap" rel="stylesheet">
 	<meta property="og:title" content="Blog Title" />
 	<meta property="og:image" content="Image Link"/>
 	<meta property="og:site_name" content="Blog Title" />
 	<meta property="og:url" content="URL link" />
 	<meta property="og:description" content="Description" />
 
-	<link rel="icon" type="image/png" href="/assets/favicon/favicon.png" />
+	<link rel="icon" type="image/png" href="fav.png" />
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body class="is-article">
 	
-	<div class="article-image" style="background-image:url(/assets/images/boise-night.jpg);"></div>
+	<div class="article-image" style="background-image:url(/assets/images/denver-golf.jpg);"></div>
 	
 	<div class="parallax">
 		
 		<header class="header wrap-bg ter row no-pad-y flex" id="welcome">
 			<div class="col-4">
-				<h1 class="white-text no-mar"><a href="">Ball So Herd</a></h1>
+				<h1 class="white-text no-mar"><a href="/">Ball So Herd</a></h1>
 			</div>
 			<div class="col-8">
 				<nav class="nav nav-inline nav-inline-right">
@@ -43,7 +44,7 @@
 				<div class="article-header-text">
 					<h1 class="article-header-title">Football Field Trip: Marshall @ Boise State</h1>
 					<div class="article-header-byline">
-						<strong class="article-header-author">Alex Vance</strong><br/>
+						<strong class="article-header-author">Alex Vance</strong> | 
 						<time datetime="2019-09-06" class="article-header-date">September 6, 2019</time>
 						<!--span class="article-category travel">Travel</span-->
 					</div>
@@ -51,28 +52,21 @@
 			</header>
 			
 			<main class="wrap-bg">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam risus velit, tempus ac vehicula at, eleifend eget neque. Aenean vel vestibulum quam. Ut congue fringilla mattis. Morbi convallis sollicitudin nunc, vitae lacinia neque consequat a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sed odio sit amet nisi lobortis dictum sed a massa. Maecenas venenatis enim non erat iaculis auctor.</p>
-				<h2>Best Marshall players</h2>
-				<ul>
-					<li>Randy MossRandy MossRandy MossRandy MossRandy MossRandy MossRandy MossRandy MossRandy MossRandy MossRandy MossRandy MossRandy MossRandy MossRandy MossRandy Moss</li>
-					<li>Chad Pennington</li>
-					<li>Byron Leftwich</li>
-					<li>Rakeem Cato</li>
-					<li>Troy Brown</li>
-				</ul>
-				<p>Morbi ac consequat turpis. In nec tortor ut odio viverra finibus. Suspendisse sagittis sed quam sit amet euismod. Vivamus viverra enim in dui eleifend, vel feugiat diam interdum. Vestibulum nec purus vel ligula tempus congue ac sit amet tortor. Ut consectetur viverra maximus. Proin dignissim euismod lacus ut tempus. Mauris vestibulum urna quis congue pretium. Phasellus molestie nisl sapien, eu elementum nibh consequat nec. Donec lorem lectus, eleifend eu ipsum ac, dapibus vulputate tellus. Vivamus dignissim mollis orci, nec efficitur ante cursus quis. Maecenas et metus elit. Pellentesque laoreet cursus dui, commodo varius odio ullamcorper non. Aenean volutpat ex at purus gravida commodo.</p>
-				<h2>Subheader Here</h2>
-				<p>Fusce pretium ut elit eget bibendum. Integer quis lobortis magna, accumsan finibus magna. Donec erat est, congue quis felis et, vulputate blandit ipsum. Proin sit amet velit pretium, ullamcorper nulla quis, lacinia eros. Nam non mi id velit consectetur eleifend et eu lacus. Suspendisse dictum ultricies facilisis. Aenean quis pretium mauris. Vestibulum malesuada, lacus eu imperdiet commodo, ipsum diam interdum nunc, consectetur cursus nulla tellus et nulla.</p>
-				<p><img src="/assets/images/boise.jpg"></p>
-				<p>Etiam posuere, dui ac aliquet dapibus, purus est vestibulum sem, eu volutpat lacus felis vitae est. Nunc scelerisque tincidunt odio, id blandit orci tempor et. Sed vel dignissim odio. Etiam mollis arcu id sem rhoncus aliquam id a lectus. Integer ornare felis sollicitudin, viverra sem quis, egestas felis. Ut hendrerit orci id semper porttitor. Sed iaculis eget magna vel varius. Donec vitae sem quis ipsum vehicula posuere eget ac tellus. Nam scelerisque, felis in maximus hendrerit, ipsum mauris suscipit odio, ut ultrices nisi turpis eu ligula. Donec velit mauris, feugiat quis posuere at, laoreet vel velit. Cras odio est, elementum id ultrices sed, ultrices vitae nisi.</p>
-				<ul>
-					<li>Etiam posuere, dui ac aliquet dapibus, purus est vestibulum sem, eu volutpat lacus felis vitae est. Nunc scelerisque tincidunt.</li>
-					<li>Another part of the list</li>
-					<li>Yep, another item</li>
-					<li>Purus est vestibulum sem, eu volutpat lacus felis vitae est. Nunc scelerisque tincidunt odio, id blandit orci tempor et. Sed vel dignissim odio. Etiam mollis arcu.</li>
-					<li>Penis.</li>
-				</ul>
-				<p>Praesent pharetra at libero sit amet auctor. Suspendisse ut maximus ante, a hendrerit urna. In risus felis, pellentesque vitae felis nec, placerat sollicitudin eros. Donec purus tellus, hendrerit id bibendum ac, condimentum sit amet elit. Suspendisse molestie ante eget blandit tempor. Suspendisse potenti. Donec sollicitudin tellus pharetra, tristique magna commodo, euismod tellus. Maecenas nibh orci, tempor sit amet eleifend in, vulputate vel lorem. Suspendisse in dolor at odio vulputate aliquet. Suspendisse auctor urna nulla, vitae auctor felis iaculis nec. Praesent id convallis velit. Sed non augue ullamcorper, eleifend nulla sed, ornare erat.</p>
+				<p>The climb up to my seat in the southeast corner of Albertson&rsquo;s Stadium was steeper and more tiring than one would expect at such a relatively small venue. While the crowd was respectable, Boise fans clearly weren&rsquo;t out in full force for a Friday night game against a team they expected to handle. This meant I had plenty of space.</p>
+
+				<p>A woman close to my age who was there with what appeared to be her husband and three children.</p>
+
+				<p>Walking through the concourse at halftime, the only Marshall fan I passed was wearing the same Moss/Pennington &lsquo;97 t-shirt that I was sporting. We pointed at each other like we were in the Spiderman meme.</p>
+
+				<p>The 2nd half was mostly excruciating to sit through. Boise scored immediately to take their first lead at 14-7, and while I was right about that being pretty much the death knell for the Herd, I certainly didn&rsquo;t expect it to be the last score of the game. The mother, taking a break from futily attempting to keep her kids from running around the bleachers, noticed my pessimism when I didn&rsquo;t react to Tavante Beckett&rsquo;s? tipped interception.</p>
+
+				<p>&ldquo;You can cheer for that, you know.&rdquo;</p>
+
+				<p>My reply was a chuckle and something along the lines of &ldquo;Well, let&rsquo;s see what the offense can do.&rdquo; Turns out the offense couldn&rsquo;t do anything. They didn&rsquo;t get a first down the entire second half. Isaiah Green&rsquo;s 2nd interception with about 8 minutes to go would be the last time the Herd touched the ball as Boise mercilessly ground out the rest of the clock.</p>
+
+				<p>I walked down the steep stairs one more time as Marshall&rsquo;s team walked off the field through the tunnel behind the south endzone. That section around the tunnel - close to the field below me - seemed to have a reputation as the rowdiest part of the stadium, similar to Cleveland&rsquo;s Dawg Pound. As part of what I assume to be a regular tradition, they stood and applauded the Herd players for a game effort.</p>
+
+				<p>I briefly thought about going back to the dive bar to see what John Candy was up to, but then I remembered I needed to be at the airport in about 8 hours and decided to just make the long walk back to the AirBnB.</p>
 			</main>
 
 			<footer class="article-footer">
