@@ -75,7 +75,18 @@
 
 			<h1>More Articles</h1>
 
-			<input class="home-articles-search centered upper" type="text" placeholder="Search Articles">
+			<div class="home-articles-sort row">
+				<div class="col-6 home-articles-sort-sections">
+					<button>Code</button>
+					<button>Sports</button>
+					<button>Politics</button>
+					<button>Travel</button>
+					<button>Fitness</button>
+				</div>
+				<div class="col-6 home-articles-sort-search">
+					<input class="centered upper" type="text" placeholder="Search Articles">
+				</div>
+			</div>
 
 			<article class="home-article row">
 				<a href="/article.php">
@@ -144,14 +155,6 @@
 				</a>
 			</article>
 		</div>
-
-		<!--section class="home-sections">
-			<button>Code</button>
-			<button>Sports</button>
-			<button>Politics</button>
-			<button>Travel</button>
-			<button>Fitness</button>
-		</section-->
 		
 		<div class="author-feature wrap-bg">
 			<img src="/assets/images/alex-nibbler.jpg">
