@@ -7,6 +7,7 @@
 
 	<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css"/>
 	<link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="/assets/css/mobile.css"/>
 
 	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Prociono|Vollkorn&display=swap" rel="stylesheet">
@@ -37,7 +38,7 @@
 		</div>
 	</header>
 
-	<article class="home-feature cover flex rel" style="background-image:url(/assets/images/vikes-panthers.jpg);">
+	<article class="home-feature cover flex rel" style="background-image:url(/assets/images/denver-golf.jpg);">
 		<a href="/article.php">
 			<div class="home-feature-text on-topper centered center rel">
 				<h1 class="white-text no-mar">Here's a Pretty Fucking Awesome Golf Course in Golden, Colorado</h1>
@@ -73,15 +74,15 @@
 
 		<div class="home-articles">
 
-			<h1>More Articles</h1>
+			<h1 class="section-title">More Articles</h1>
 
 			<div class="home-articles-sort row">
 				<div class="col-6 home-articles-sort-sections">
-					<button>Code</button>
+					<!--button>Code</button>
 					<button>Sports</button>
 					<button>Politics</button>
 					<button>Travel</button>
-					<button>Fitness</button>
+					<button>Fitness</button-->
 				</div>
 				<div class="col-6 home-articles-sort-search">
 					<input class="centered upper" type="text" placeholder="Search Articles">
@@ -154,6 +155,52 @@
 					</div>
 				</a>
 			</article>
+			<article class="home-article row">
+				<a href="/article.php">
+					<div class="home-article-text row">
+						<div class="col-5">
+							<img src="/assets/images/cincinnati-hotel.jpg">
+						</div>
+						<div class="col-7">
+							<h1>What in the Fuck is Going on in Huntington?</h1>
+							<div class="home-article-byline row">
+								<date class="home-article-date">December 27, 2018</date>
+								<ul class="home-article-tags">
+									<li>Sports</li>
+									<li>Travel</li>
+								</ul>
+							</div>
+							<div class="home-article-excerpt">
+								<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure. Aaaaand Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview.</p>
+							</div>
+						</div>
+					</div>
+				</a>
+			</article>
+
+			<article class="home-article row">
+				<a href="/article.php">
+					<div class="home-article-text row">
+						<div class="col-5">
+							<img src="/assets/images/siesta-key-sunset.jpg">
+						</div>
+						<div class="col-7">
+							<h1>What in the Fuck is Going on in Huntington?</h1>
+							<div class="home-article-byline row">
+								<date class="home-article-date">December 27, 2018</date>
+								<ul class="home-article-tags">
+									<li>Sports</li>
+									<li>Travel</li>
+								</ul>
+							</div>
+							<div class="home-article-excerpt">
+								<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure. Aaaaand Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview.</p>
+							</div>
+						</div>
+					</div>
+				</a>
+			</article>
+
 		</div>
 		
 		<div class="author-feature wrap-bg">

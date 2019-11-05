@@ -4,7 +4,7 @@ var windowHeight;
 /* FUNCTIONS TO BE RAN ONCE EVERY TIME PAGE IS LOADED */
 $(document).ready(function() {
 	getWindowHeight();
-	wooshHeader();
+	//wooshHeader();
 	fadeInArticleImage();
 	//wooshArticleHeader();
 });
@@ -17,6 +17,12 @@ $(window).resize(function(){
 /* FUNCTIONS TO BE RAN EVERY TIME USER SCROLLS */
 $(window).scroll(function() {
 	fixedNavOrNah();
+});
+
+
+// CLICK EVENTS
+$('.home-articles-sort-search input').focus(function(){
+	$(this).attr('placeholder', '');
 });
 
 

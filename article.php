@@ -2,17 +2,20 @@
 <html>
 <head>
 	<title>Football Field Trip: Marshall @ Boise State | Ball So Herd</title>
-	<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css"/>
-	<link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
+	<link rel="icon" type="image/png" href="fav.png" />
+
 	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Prociono|Vollkorn&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="/assets/css/mobile.css"/>
+
 	<meta property="og:title" content="Blog Title" />
 	<meta property="og:image" content="Image Link"/>
 	<meta property="og:site_name" content="Blog Title" />
 	<meta property="og:url" content="URL link" />
 	<meta property="og:description" content="Description" />
-
-	<link rel="icon" type="image/png" href="fav.png" />
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
