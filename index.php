@@ -37,7 +37,7 @@
 		</div>
 	</header>
 
-	<article class="home-feature cover flex rel" style="background-image:url(/assets/images/denver-golf.jpg);">
+	<article class="home-feature cover flex rel" style="background-image:url(/assets/images/vikes-panthers.jpg);">
 		<a href="/article.php">
 			<div class="home-feature-text on-topper centered center rel">
 				<h1 class="white-text no-mar">Here's a Pretty Fucking Awesome Golf Course in Golden, Colorado</h1>
@@ -49,37 +49,63 @@
 	<main class="main-home">
 
 
-		<div class="home-showcases">
-			<div class="row">
-				<div class="col-4" style="background-image:url(/assets/images/boise-night.jpg);">
-					<h1>Football Field Trip: Marshall @ Boise State</h1>
-					<div class="overlay"></div>
-				</div>
-				<div class="col-4" style="background-image:url(/assets/images/vikes-panthers.jpg);">
-					<h1>Hey Look, the Vikings Blew Another Big Game</h1>
-					<div class="overlay"></div>
-				</div>
-				<div class="col-4" style="background-image:url(/assets/images/denver-golf.jpg);">
-					<h1>Here's a Really Fucking Cool Golf Course in Golden, Colorado</h1>
-					<div class="overlay"></div>
-				</div>
-			</div>
-		</div>
-
 		<div class="welcome wrap-pad centered">
 			<p>Welcome to BallSoHerd.com, the personal site and blog of Alex Vance &mdash; a professional web developer and kickball superstar from Huntington, West Virginia.</p>
 			<p>You'll find a lot of about web development here, but also a healthy mix of articles about sports (especially Marshall Thundering Herd football & basketball), travel, cats, gambling, and yes, maybe sometimes even politics.</p>
 		</div>
-		
+
+		<div class="home-showcases">
+			<div class="row">
+				<div class="home-showcase col-6" style="background-image:url(/assets/images/boise-night.jpg);">
+					<a class="block-link" href="/article.php">
+						<h1>Football Field Trip: Marshall @ Boise State</h1>
+						<div class="overlay"></div>
+					</a>
+				</div>
+				<div class="home-showcase col-6" style="background-image:url(/assets/images/denver-golf.jpg);">
+					<a class="block-link" href="/article.php">
+						<h1>Here's a Really Fucking Cool Golf Course in Golden, Coloradopoooo sdlfkjsdflkjdsdslj  kj</h1>
+						<div class="overlay"></div>
+					</a>
+				</div>
+			</div>
+		</div>
 
 		<div class="home-articles">
+
+			<h1>More Articles</h1>
+
+			<input class="home-articles-search centered upper" type="text" placeholder="Search Articles">
+
 			<article class="home-article row">
 				<a href="/article.php">
-					<div class="home-article-text row wrap-pad">
-						<div class="col-4">
+					<div class="home-article-text row">
+						<div class="col-5">
 							<img src="/assets/images/stonewall-lake.jpg">
 						</div>
-						<div class="col-8">
+						<div class="col-7">
+							<h1>What in the Fuck is Going on in Huntington?</h1>
+							<div class="home-article-byline row">
+								<date class="home-article-date">December 27, 2018</date>
+								<ul class="home-article-tags">
+									<!--li>Sports</li>
+									<li>Travel</li-->
+								</ul>
+							</div>
+							<div class="home-article-excerpt">
+								<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure. Aaaaand Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview.</p>
+							</div>
+						</div>
+					</div>
+				</a>
+			</article>
+			<article class="home-article row">
+				<a href="/article.php">
+					<div class="home-article-text row">
+						<div class="col-5">
+							<img src="/assets/images/new-river-bridge.jpg">
+						</div>
+						<div class="col-7">
 							<h1>What in the Fuck is Going on in Huntington?</h1>
 							<div class="home-article-byline row">
 								<date class="home-article-date">December 27, 2018</date>
@@ -97,33 +123,11 @@
 			</article>
 			<article class="home-article row">
 				<a href="/article.php">
-					<div class="home-article-text row wrap-pad">
-						<div class="col-4">
-							<img src="/assets/images/stonewall-lake.jpg">
+					<div class="home-article-text row">
+						<div class="col-5">
+							<img src="/assets/images/wilmington-beach.jpg">
 						</div>
-						<div class="col-8">
-							<h1>What in the Fuck is Going on in Huntington?</h1>
-							<div class="home-article-byline row">
-								<date class="home-article-date">December 27, 2018</date>
-								<ul class="home-article-tags">
-									<li>Sports</li>
-									<li>Travel</li>
-								</ul>
-							</div>
-							<div class="home-article-excerpt">
-								<p>Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview. That's for goddamn sure. Aaaaand Here's some text about the above article that's very accurate and insightful. You're gonna have to fucking click on this article after reading this preview.</p>
-							</div>
-						</div>
-					</div>
-				</a>
-			</article>
-			<article class="home-article row">
-				<a href="/article.php">
-					<div class="home-article-text row wrap-pad">
-						<div class="col-4">
-							<img src="/assets/images/stonewall-lake.jpg">
-						</div>
-						<div class="col-8">
+						<div class="col-7">
 							<h1>What in the Fuck is Going on in Huntington?</h1>
 							<div class="home-article-byline row">
 								<date class="home-article-date">December 27, 2018</date>
@@ -141,7 +145,7 @@
 			</article>
 		</div>
 
-		<section class="home-sections">
+		<!--section class="home-sections">
 			<button>Code</button>
 			<button>Sports</button>
 			<button>Politics</button>
@@ -149,9 +153,13 @@
 			<button>Fitness</button>
 		</section-->
 		
-		<div class="author-feature wrap-pad flex">
-			<h1><span>Alex</span><span>Vance</span></h1>
-			<h2>Web Developer</h2>
+		<div class="author-feature wrap-bg">
+			<img src="/assets/images/alex-nibbler.jpg">
+			<div class="author-feature-info">
+				<h1>Alex Vance</h1>
+				<h2>Web Developer</h2>
+				<p>Welcome to BallSoHerd.com, the personal site and blog of Alex Vance &mdash; a professional web developer and kickball superstar from Huntington, West Virginia. You'll find a lot of about web development here, but also a healthy mix of articles about sports (especially Marshall Thundering Herd football & basketball), travel, cats, gambling, and yes, maybe sometimes even politics.</p>
+			</div>
 		</div>
 
 	</main>

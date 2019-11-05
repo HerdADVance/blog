@@ -18,7 +18,7 @@
 </head>
 <body class="is-article">
 	
-	<div class="article-image" style="background-image:url(/assets/images/denver-golf.jpg);"></div>
+	<div class="article-image" style="background-image:url(/assets/images/new-river-overlook-feet.jpg);"></div>
 	
 	<div class="parallax">
 		

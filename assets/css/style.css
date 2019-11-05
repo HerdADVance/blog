@@ -428,6 +428,17 @@ p {
 article a{
   color: #4f9c6f;
 }
+.block-link{
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+}
+.block-link:hover{
+  text-decoration: none;
+}
 
 
 /* ========== BEGIN ELEMENTS UNIQUE FROM FRAMEWORK ========== */
@@ -494,22 +505,12 @@ article a{
 
 /* ----- HOME FEATURE ----- */
 .home-feature {
-  background-position-y: 0%;
+  background-position-y: 50%;
   height: 100vh;
-}
-.home-feature .overlay{
-  background: rgba(0,0,0,0.6)
 }
 .home-feature-text{
   margin-top: -4vh;
   width: 66.66%;
-}
-
-.home-feature a{
-  align-items: center;
-  display: flex;
-  height: 100%;
-  width: 100%;
 }
 
 .home-feature a:hover{
@@ -521,12 +522,29 @@ article a{
   font-weight: 300;
   line-height: 1.375em;
 }
+.home-feature .overlay{
+  background: rgba(5,1,13,0.75);
+  transition: 0.25s all ease;
+}
+.home-feature a:hover > .overlay{
+  background: rgba(5,1,13,0.8);
+}
+
+
+/* ----- HOME WELCOME ----- */
+.welcome{
+  background: linear-gradient(to left top, rgba(5,1,13, 1) 40%, rgba(95, 173, 114, 1) 100%);
+  padding: 2.5em 20%;
+}
+.welcome p{
+  color: #FFF;
+  font-size: 1.125em;
+  line-height: 1.625em;
+}
 
 
 /* ----- HOME SHOWCASES ----- */
 .home-showcases{
-  border-bottom: 2px solid #FFF;
-  border-top: 2px solid #FFF;
   margin: 0;
   padding: 0;
 }
@@ -537,12 +555,11 @@ article a{
   display: flex;
   justify-content: center;
   margin: 0;
-  padding: 8em 3em;
+  padding: 12em 3em;
   position: relative;
 }
 .home-showcases .row > div:nth-child(2){
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
+  border-left: 1px solid #FFF;
 }
 
 .home-showcases h1{
@@ -556,45 +573,57 @@ article a{
   z-index: 3;
 }
 
-.home-showcases .overlay{
-  background: rgba(0,0,0,0.6);
+.home-showcase .overlay{
+  background: rgba(5,1,13,0.75);
+  transition: 0.25s all ease;
 }
-
-
-/* ----- HOME WELCOME ----- */
-.welcome{
-  background: linear-gradient(to bottom, rgba(95,173,114, 1) 0%, rgba(25,5,48, 1) 100%);
-  border-bottom: 2px solid #333;
-  padding: 1.75em 20%;
+.home-showcase a:hover > .overlay{
+  background: rgba(5,1,13,0.8);
 }
-.welcome p{
-  color: #FFF;
-  font-family: 'Prociono';
-  font-size: 1.125em;
-  line-height: 1.625em;
-}
-
 
 
 /* ----- HOME ARTICLES ----- */
 .home-articles{
-  background: #EEE;
-  padding: 2em 8%;
+  background: snow;
+  padding: 4em 8%;
 }
+.home-articles-search{
+  background: lavender;
+  border: none;
+  color: #666;
+  float: right;
+  font-size: 0.875em;
+  margin: 0;
+  padding: 1.75em 1em;
+  width: 33.33%;
+}
+.home-articles-search::placeholder{
+  color: #666;
+  opacity: 1;
+}
+
 .home-article{
-  background: white;
-  border-bottom: 1px solid #EEE;
-  padding-bottom: 2em;
-  padding-top: 2em;
+  /*border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #DDD;*/
+  background: whitesmoke;
+  cursor: pointer;
+  padding: 2em;
   transition: background 0.375s ease;
+}
+.home-article:nth-child(even){
+  background: #EEE;
 }
 .home-article:hover{
   background: #DDD;
-  cursor: pointer;
 }
   
 .home-article div[class*="col-"] {
   margin-right: 3%;
+}
+
+.home-article-text{
+  align-items: center;
 }
 
 .home-article a{
@@ -606,7 +635,7 @@ article a{
   color: #0f0126;
   font-size: 1.25em;
   font-weight: 400;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
   transition: color 0.75s ease;
 }
 .home-article date{
@@ -628,7 +657,7 @@ article a{
 .home-article p{
   line-height: 1.375em;
 }
-.home-article .excerpt p:last-child{
+.home-article-excerpt p:last-child{
   margin-bottom: 0;
 }
 .home-article a:hover{
@@ -695,7 +724,7 @@ article a{
 
 /* ARTICLE BASICS */
 .article main{
-  background: white;
+  background: snow;
   overflow: auto;
   padding: 2em 16%;
 }
@@ -727,7 +756,7 @@ article a{
 
 /* RELATED ARTICLES */
 .related-articles{
-  background: rgba(220,220,220,1);
+  background: snow;
 }
 .related-articles-wrap{
   display: flex;
@@ -759,7 +788,7 @@ article a{
 /* ----- AUTHOR FEATURE ----- */
 .author-feature{
   align-items: center;
-  background: linear-gradient(to right bottom, rgba(25,5,48, 1) 30%, rgba(95, 173, 114, 1) 100%);
+  background: linear-gradient(to right bottom, rgba(5,1,13, 1) 40%, rgba(95, 173, 114, 1) 100%);
   display: flex;
   justify-content: left;
   padding-bottom: 3em;
@@ -800,7 +829,6 @@ article a{
 
 /* ----- FOOTER ----- */
 .footer {
-  border-top: 1px solid #333;
   padding-bottom: 0.75em;
   padding-top: 0.75em;
 }
