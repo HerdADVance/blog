@@ -534,6 +534,7 @@ article a{
 /* ----- HOME WELCOME ----- */
 .welcome{
   background: linear-gradient(to left top, rgba(5,1,13, 1) 40%, rgba(95, 173, 114, 1) 100%);
+  border-bottom: 1px solid #CCC;
   padding: 2.5em 20%;
 }
 .welcome p{
@@ -843,7 +844,7 @@ article a{
 .author-feature p{
   color: white;
   font-family: 'Oxygen', sans-serif;
-  font-size: 0.875em !important;
+  font-size: 1em !important;
   margin-bottom: 0 !important;
 }
 

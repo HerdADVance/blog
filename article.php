@@ -78,7 +78,7 @@
 					<div class="author-feature-info">
 						<h1>Alex Vance</h1>
 						<h2>Web Developer</h2>
-						<p>Welcome to BallSoHerd.com, the personal site and blog of Alex Vance &mdash; a professional web developer and kickball superstar from Huntington, West Virginia. You'll find a lot of about web development here, but also a healthy mix of articles about sports (especially Marshall Thundering Herd football & basketball), travel, cats, gambling, and yes, maybe sometimes even politics.</p>
+						<p>Alex Vance is a web developer from Huntington, West Virginia, with a good mix of knowledge in front-end and back-end technologies. He's an avid of Marshall Thundering Herd football and basketball (hence the name of this website). Kickball superstar but extremely mediocre golfer, chess player, and runner.</p>
 					</div>
 				</div>
 			</footer>
