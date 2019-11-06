@@ -7,6 +7,7 @@ $(document).ready(function() {
 	//wooshHeader();
 	fadeInArticleImage();
 	//wooshArticleHeader();
+	panorama();
 });
 
 /* FUNCTIONS TO BE RAN EVERY TIME USER RESIZES BROWSER WINDOW */
@@ -25,6 +26,12 @@ $('.home-articles-sort-search input').focus(function(){
 	$(this).attr('placeholder', '');
 });
 
+$('.hamburger').click(function(){
+	$('.header').addClass('mob-open');
+	$(this).removeClass('mob');
+	$(this).addClass('desk');
+});
+
 
 // FUNCTIONS
 
@@ -38,6 +45,7 @@ function fixedNavOrNah(){
 
 	if(fromTop >= windowHeight - headerHeight){ 
 		$('.header').addClass('sticky');
+		$('.header').css('bottom', 'initial');
 	} else{
 		$('.header').removeClass('sticky');
 		$('.header').css('bottom', '0');

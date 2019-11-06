@@ -445,22 +445,20 @@ article a{
 
 /* ----- HEADER ----- */
 .header{
-  background: rgba(95, 173, 114, 1);
+  background: rgba(95, 173, 114, 0.98);
   bottom: 0;
   height: 8vh;
   position: absolute;
   width: 100%;
   z-index: 9;
 }
-.header.sticky{
-  background: rgba(95, 173, 114, 0.95);
+.header.sticky{  
   box-shadow: 2px 2px 4px #333;
   margin-top: 0;
   position: fixed;
   top: 0;
 }
 .is-article .header{
-  background: rgba(95, 173, 114, 0.95);
   border-bottom: 1px solid #333;
   position: relative;
 }
@@ -475,7 +473,7 @@ article a{
 /* ----- MAIN NAV ----- */
 .nav li {
   text-align: center;
-  transition: background ease-in 0.375s;
+  transition: background ease-in 0.25s;
 }
 .nav li:hover {
   background-color: #4f9c6f;
@@ -487,7 +485,7 @@ article a{
   color: #F5F7F7;
   cursor: pointer;
   display: block;
-  font-size: 0.75em;
+  font-size: 1em;
   font-weight: 300;
   height: 100%;
   padding: 0.75em 1em;
@@ -497,6 +495,7 @@ article a{
 .nav li:last-child{
   margin-right: -0.75em;
 }
+
 
 /* ----- MAIN HOME ----- */
 .main-home{
@@ -575,11 +574,11 @@ article a{
 }
 
 .home-showcase .overlay{
-  background: rgba(5,1,13,0.75);
+  background: rgba(5,1,13,0.65);
   transition: 0.25s all ease;
 }
 .home-showcase a:hover > .overlay{
-  background: rgba(5,1,13,0.8);
+  background: rgba(5,1,13,0.72);
 }
 
 
@@ -686,12 +685,22 @@ article a{
 }
 
 
+/* ----- ARTICLE WRAP ----- */
+.article main{
+  background: snow;
+  overflow: auto;
+  padding: 2em 16%;
+}
 
+.article-main-content{
+  margin: 0 auto;
+  max-width: 800px;
+}
 
 /*----- ARTICLE HEADER -----*/
 .article-image{
   align-items: center;
-  background-position-y: 0;
+  background-position: 0;
   background-repeat: no-repeat;
   background-size: cover;
   display: none;
@@ -744,11 +753,6 @@ article a{
 }
 
 /* ARTICLE BASICS */
-.article main{
-  background: snow;
-  overflow: auto;
-  padding: 2em 16%;
-}
 .article h2{
   color: #04954A;
   font-size: 2em;

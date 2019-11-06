@@ -22,18 +22,19 @@
 </head>
 <body>
 
-	<header class="header wrap-bg ter row no-pad-y flex" id="welcome">
+	<header class="header wrap-bg ter no-pad-y flex" id="welcome">
 		<div class="col-4">
 			<h1 class="white-text no-mar">Ball So Herd</h1>
 		</div>
 		<div class="col-8">
 			<nav class="nav nav-inline nav-inline-right">
-				<ul>
+				<ul class="desk">
 					<li><a href="">About</a></li>
 					<li><a href="">Portfolio</a></li>
 					<li><a href="">Resume</a></li>
 					<li><a href="">Contact</a></li>
 				</ul>
+				<div class="mob pull-right hamburger"><div></div></div>
 			</nav>
 		</div>
 	</header>

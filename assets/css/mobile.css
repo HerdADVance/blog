@@ -1,23 +1,71 @@
 @media(max-width: 800px) {
 	.mob {
-		display: block !important
+		display: block !important;
 	}
 	.mob-flex {
-		display: flex !important
+		display: flex !important;
 	}
 	[class*=col-] {
 		clear: both;
 		float: none;
 		margin-right: 0;
 	}
-	.hidden,
 	.desk {
-		display: none
+		display: none !important;
 	}
 	.wrap {
 		margin-left: 5%;
 		margin-right: 5%;
-		width: 90%
+		width: 90%;
+	}
+
+	/* NAV */
+	.hamburger{
+	 	cursor: pointer;
+		width: 30px;
+	}
+	.hamburger::before, .hamburger div, .hamburger::after{
+		background: white;
+	 	content: '';
+	 	cursor: pointer;
+	  	display: block;
+	  	height: 2px;
+	  	margin: -1px 0;
+	}
+
+	.hamburger div{display: none;}
+	.hamburger::before{transform: rotate(45deg);}
+	.hamburger::after{transform: rotate(135deg);}
+
+	.header{
+		max-height: 8vh;
+		transition: max-height 0.5s ease;
+	}
+	.header.mob-open{
+		display: block;
+		height: auto;
+		max-height: 50vh;
+		width: 100%;
+	}
+	.header.mob-open .col-4, .header.mob-open .col-8{
+		display: block;
+		width: 100%;
+	}
+	.header.mob-open h1{
+		padding: 1em 0;
+		text-align: center;
+	}
+	.header.mob-open ul{
+		display: block !important;
+		padding-bottom: 1em;
+	}
+	.nav li:last-child{
+		margin-right: 0;
+	}
+
+	/* HOME WELCOME */
+	.welcome{
+		padding: 1.5em 8%;
 	}
 
 	/* HOME SHOWCASES */
@@ -61,10 +109,11 @@
 	/* ARTICLE HEADER */
 	.article-image{
 		background-position-x: 50%;
-		height: 50vh;
+		background-position-y: 50%;
+		/*height: 50vh;*/
 	}
 	.parallax{
-		margin-top: 50vh;
+		/*margin-top: 50vh;*/
 	}
 
 	/* ARTICLE MAIN */
