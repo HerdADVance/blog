@@ -34,7 +34,11 @@
 					<li><a href="">Resume</a></li>
 					<li><a href="">Contact</a></li>
 				</ul>
-				<div class="mob pull-right hamburger"><div></div></div>
+				<div class="mob pull-right hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+				<div>
 			</nav>
 		</div>
 	</header>

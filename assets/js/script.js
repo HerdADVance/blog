@@ -7,7 +7,6 @@ $(document).ready(function() {
 	//wooshHeader();
 	fadeInArticleImage();
 	//wooshArticleHeader();
-	panorama();
 });
 
 /* FUNCTIONS TO BE RAN EVERY TIME USER RESIZES BROWSER WINDOW */
@@ -27,9 +26,13 @@ $('.home-articles-sort-search input').focus(function(){
 });
 
 $('.hamburger').click(function(){
-	$('.header').addClass('mob-open');
-	$(this).removeClass('mob');
-	$(this).addClass('desk');
+	if($(this).hasClass('open')){
+		$('.header').removeClass('mob-open');
+		$(this).removeClass('open');
+	} else{
+		$('.header').addClass('mob-open');
+		$(this).addClass('open');
+	}
 });
 
 
